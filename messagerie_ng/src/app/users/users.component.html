@@ -1,0 +1,7 @@
+<div class="users">
+    <div *ngIf="users.length > 0">
+        <p *ngFor="let user of users">{{user}}</p>
+    </div>
+    
+    <p *ngIf="users.length == 0">Pas d'utilisateur actif</p>    
+</div>

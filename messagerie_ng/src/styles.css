@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #18534F;
+}
+p{
+    color: #ECF8F6;
+}
+.box{
+    display: flex;
+    flex-flow: row wrap;
+}
